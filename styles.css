@@ -1,0 +1,134 @@
+:root{
+    --normal: rgb(147,154,161);
+    --fighting: rgb(190,76,107);
+    --flying: rgb(148,168,218);
+    --poison: rgb(161,110,195);
+    --ground: rgb(204,125,80);
+    --rock: rgb(195,183,145);
+    --bug: rgb(155,192,74);
+    --ghost: rgb(87,104,168);
+    --steel: rgb(102,141,160);
+    --fire: rgb(241,162,99);
+    --water: rgb(95,142,208);
+    --grass: rgb(121,186,102);
+    --electric: rgb(238,211,90);
+    --psychic: rgb(233,121,124);
+    --ice: rgb(137,204,192);
+    --dragon: rgb(48,107,189);
+    --dark: rgb(89,84,100);
+    --fairy: rgb(223,147,225);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0 40px 0;
+}
+
+#search-input{
+    display: inline-block;
+    margin-bottom: 5px;
+    height: 25px;
+    width: 250px;
+    font-size: 20px;
+    color: black;
+}
+
+#search-button{
+    width: 250px;
+    height: 25px;
+    font-size: 20px;
+    color: black;
+}
+
+.pokemon-container {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pokemon {
+    width: 250px;
+    height: calc(100vh - (8rem + 4vh));
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-container {
+    border-radius: 0 0 15px 15px;
+    width: inherit;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+#sprite {
+    display: block;
+    margin: auto;
+    height: calc(100% - (1rem + 4px));
+    width: 250px;
+    object-fit: contain;
+}
+
+#pokemon-id {
+    font-size: 20px;
+    text-align: right;
+}
+
+#pokemon-name{
+    margin-bottom: 10px;
+}
+
+.characteristics.a {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#types {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.characteristics.b {
+    display: inline-flex;
+    width: 100%;
+    margin-bottom: 30px;
+} 
+
+.characteristics.b > div{
+    text-align: center;
+    width: 50%;
+}
+
+.base-stats {
+    width: 100%;
+}
+
+#stats {
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+}
+
+

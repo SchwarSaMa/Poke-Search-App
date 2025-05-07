@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon-Search-App by FCC</title>
+</head>
+<body>
+    <div class="search">
+        <label for="search-input"></label>
+        <input id="search-input" type="text" required>
+        <button id="search-button" type="submit">SEARCH</button>
+    </div>
+    <div class="pokemon-container">
+        <div class="pokemon">
+            <div class="image-container">
+                <div id="pokemon-id" value="">#000</div>
+                <img id="sprite" src="" alt="">
+            </div>
+
+            <div class="characteristics a">
+                <div id="pokemon-name" value="">Name</div>
+                <div id="types">
+                    
+                </div>
+            </div>
+
+            <div class ="characteristics b">
+                <div>
+                    <div id="weight" value="">kg</div>
+                    <div>weight</div>
+                </div>
+                <div>
+                    <div id="height" value="">m</div>
+                    <div>height</div>
+                </div>
+            </div>
+
+            <div class="base-stats">
+                <table id="stats">
+                    <tr>
+                        <th>HP</th>
+                        <td id="hp" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>Attack</th>
+                        <td id="attack" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>Defense</th>
+                        <td id="defense" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>Sp-Attack</th>
+                        <td id="special-attack" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>Sp-Defense</th>
+                        <td id="special-defense" value=""></td>
+                    </tr>
+                    <tr>
+                        <th>Speed</th>
+                        <td id="speed" value=""></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
